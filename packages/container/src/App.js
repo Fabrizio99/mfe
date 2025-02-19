@@ -25,7 +25,7 @@ export default () => {
     } else {
       history.push("/");
     }
-  }, [isSigned]);
+  }, [isSignedIn]);
 
   return (
     <StylesProvider generateClassName={generateClassName}>
